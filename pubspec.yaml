@@ -1,0 +1,39 @@
+name: window_register
+description: "SeniorConnect - aplikacja dla seniorów"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.0
+
+  # Геолокация
+  geolocator: ^13.0.0
+
+  # Автодополнение городов
+  flutter_typeahead: ^5.2.0
+
+  # Карта (OpenStreetMap)
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  flutter_map_cancellable_tile_provider: ^3.0.0     # ← Добавлено для стабильной работы карты
+  url_launcher: ^6.3.0                              # ← Добавлено для атрибуции OSM
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/poland_cities.json

@@ -1,0 +1,1 @@
+https://github.com/jusuff/PolandGeoJson/blob/main/data/poland.municipalities.json

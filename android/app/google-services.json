@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231631929604",
+    "project_id": "window-register",
+    "storage_bucket": "window-register.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231631929604:android:6b0eb493d18c8e64235051",
+        "android_client_info": {
+          "package_name": "com.example.window_register"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqAFQVXrjQPtzXOv5c62UKb6Wb95dE31Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
